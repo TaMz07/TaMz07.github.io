@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking</title>
+
+    <style>
+        .group {
+            display: inline-block;
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <label for="from" style="margin-right: 30px;"><b>Flying from</b></label>
+        <label for="to"><b>To</b></label>
+        <br>
+        <select name="from" id="from">
+            <option value="bangkok">bangkok</option>
+            <option value="lopburi">lopburi</option>
+            <option value="buriram">buriram</option>
+            <option value="trad">trad</option>
+            <option value="chonburi">chonburi</option>
+            <option value="surin">surin</option>
+            <option value="samutprakan">samutprakan</option>
+            <option value="songkla">songkla</option>
+        </select>
+        <select name="to" id="to">
+            <option value="bangkok">bangkok</option>
+            <option value="lopburi">lopburi</option>
+            <option value="buriram">buriram</option>
+            <option value="trad">trad</option>
+            <option value="chonburi">chonburi</option>
+            <option value="surin">surin</option>
+            <option value="samutprakan">samutprakan</option>
+            <option value="songkla">songkla</option>
+        </select>
+        </div>
+
+        <div>
+            <label for="departing" style="margin-right: 70px;"><b>Departing</b></label>
+            <label for="returning"><b>Returning</b></label>
+            <br>
+            <input type="date" id="departing">
+            <input type="date" id="returning">
+        </div>
+
+        <div>
+            <div class="group">
+                <label for="adult">Adult</label>
+                <br>
+                <input type="number" name="" id="" value="1">
+                <br>
+            </div>
+            <div class="group">
+                <label for="child">Child</label>
+                <br>
+                <input type="number" name="" id="child" value="0">
+            </div>
+            <div class="group">
+                <label for="infant">Infant</label>
+                <br>
+                <input type="number" name="" id="infant" value="0">
+            </div>
+            <div class="group">
+                <label for="currency" style="color: orange;">Currency</label>
+                <br>
+                <select name="currency" id="currency">
+                    <option value="usd">USD</option>
+                    <option value="yen">Yen</option>
+                    <option value="bath">Bath</option>
+                </select>
+            </div>
+            <div>
+                <button type="submit" style="color: white;background-color: orange;">Search</button>
+            </div>
+    </form>
+</body>
+
+</html>
